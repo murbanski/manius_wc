@@ -1,0 +1,9 @@
+{application,manius_wc,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{manius_wc_app,[]}},
+              {env,[]},
+              {modules,[manius_count,manius_count_test,manius_wc_app,
+                        manius_wc_sup]}]}.
